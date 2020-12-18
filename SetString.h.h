@@ -1,0 +1,14 @@
+char* encryptdecryptxor(const char* Message[]);
+void Mencryptdecryptxor(char Message[]);
+char* EncryptCaesarCipher(const char* Message[],  unsigned int Key);
+void MEncryptCaesarCipher(char Message[],  unsigned int Key);
+char* Filter(const char* Message);
+void  MFilter(char* Message);
+char* removeSpaces(const char* *Message);
+void MremoveSpaces(char* Message);
+char* toUpper(const char* Message);
+void MtoUpper(char* Message);
+char* toLower(const char* Message);
+void MtoLower(char* Message);
+char* strip(const char* Message);
+void Mstrip(char* Message);
